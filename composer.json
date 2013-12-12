@@ -1,0 +1,23 @@
+{
+    "name": "fr6/lazyauth",
+    "description": "",
+    "authors": [
+        {
+            "name": "fhoule",
+            "email": "fhoule@cloudraker.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "illuminate/support": "4.0.x"
+    },
+    "autoload": {
+        "classmap": [
+            "src/migrations"
+        ],
+        "psr-0": {
+            "FR6\\Lazyauth": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
