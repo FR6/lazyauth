@@ -41,9 +41,9 @@ Laravel 4 package for a really basic HTTP authentication process.
 
 In your routes.php:
 
-Route::group(array('before' => 'lazyauth', 'prefix' => 'admin'), function(){
+	Route::group(array('before' => 'lazyauth', 'prefix' => 'admin'), function(){
 
-	Route::get('/', function(){
-		...
+		Route::get('/', function(){
+			...
+		});
 	});
-});
