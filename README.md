@@ -35,7 +35,7 @@ Laravel 4 package for a really basic HTTP authentication process.
 
 - Publish configuration file
 
-	$ php artisan config:publish FR6/lazyauth
+	$ php artisan config:publish fr6/lazyauth
 
 # Usage
 
